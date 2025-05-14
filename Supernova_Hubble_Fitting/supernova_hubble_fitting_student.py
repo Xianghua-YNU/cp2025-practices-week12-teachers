@@ -231,7 +231,7 @@ def plot_hubble_diagram_with_deceleration(z, mu, mu_err, H0, a1):
 
 if __name__ == "__main__":
     # 数据文件路径
-    data_file = "/Users/lixh/Library/CloudStorage/OneDrive-个人/Code/cp2025-InterpolateFit-1/Supernova_Hubble_Fitting/data/supernova_data.txt"
+    data_file = "/Users/lixh/Library/CloudStorage/OneDrive-个人/Code/cp2025-InterpolateFit-1/Supernova_Hubble_Fitting/data/supernov_data.txt"
     
     # 加载数据
     z, mu, mu_err = load_supernova_data(data_file)
